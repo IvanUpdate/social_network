@@ -4,7 +4,7 @@ import classes from './ProfileInfo.module.css'
 const ProfileInfo = () => {
     return (
         <div>
-            <div>
+            <div className={classes.photo}>
                 <img src = 'https://cdn.cnn.com/cnnnext/dam/assets/181010131059-australia-best-beaches-cossies-beach-cocos3.jpg'/>
             </div>
             <div className={classes.descriptionBlock}>

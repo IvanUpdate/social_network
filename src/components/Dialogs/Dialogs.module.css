@@ -27,3 +27,8 @@
 .dialogItems .active {
     color: gold;
 }
+
+.addMessage {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
